@@ -12,5 +12,6 @@ def line(katz)
 end
 
 def take_a_number(katz,person)
-  puts "Welcome, #{person}. You are number #{katz.size} in line."
+  puts "Welcome, #{person}. You are number #{katz.size + 1} in line."
+  return katz.push(person)
 end
