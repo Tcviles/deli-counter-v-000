@@ -10,4 +10,3 @@ def line(katz)
     string
   end
 end
-
