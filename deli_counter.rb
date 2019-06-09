@@ -10,3 +10,7 @@ def line(katz)
     puts string
   end
 end
+
+def take_a_number(katz,person)
+  puts "Welcome, #{person}. You are number #{katz.size + 1} in line."
+end
