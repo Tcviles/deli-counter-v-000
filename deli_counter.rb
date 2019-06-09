@@ -20,7 +20,7 @@ def now_serving(katz)
   if katz.size == 0
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{katz[0]}"
+    puts "Currently serving #{katz[0]}."
     return katz.shift
   end
 end
